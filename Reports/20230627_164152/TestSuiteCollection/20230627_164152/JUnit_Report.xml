@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteCollection" time="26.969" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite" tests="1" failures="0" errors="0" time="10.566" skipped="0" timestamp="2023-06-27 16:42:03" hostname="nthuyen5 - nthuyen5.tma.com.vn" id="Test Suites/Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nthuyen5\\Katalon Studio\\My Test\\Reports\\20230627_164152\\Test Suite\\20230627_164153"/>
+         <property name="logFiles" value="C:\\Users\\nthuyen5\\Katalon Studio\\My Test\\Reports\\20230627_164152\\Test Suite\\20230627_164153\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nthuyen5 - nthuyen5.tma.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="169.254.60.44"/>
+         <property name="sessionId" value="fb7b13aeaeff5b5edc07eedd2bb108a5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LoginScript_CURA" time="10.295" classname="Test Cases/LoginScript_CURA" status="PASSED">
+         <system-out><![CDATA[2023-06-27 16:42:04 - [TEST_CASE][PASSED] - Test Cases/LoginScript_CURA: Test Cases/LoginScript_CURA
+
+2023-06-27 16:42:04 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-06-27 16:42:04 - [TEST_STEP][PASSED] - println("I am in sampleBeforeTestCase method "): null
+
+2023-06-27 16:42:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-27 16:42:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-27 16:42:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-27 16:42:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-27 16:42:06 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-27 16:42:10 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-27 16:42:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-06-27 16:42:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-06-27 16:42:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username"), Username): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username'
+
+2023-06-27 16:42:12 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username'
+
+2023-06-27 16:42:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password'
+
+2023-06-27 16:42:12 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password'
+
+2023-06-27 16:42:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-06-27 16:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-06-27 16:42:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-27 16:42:14 - [MESSAGE][PASSED] - Browser is closed
+
+2023-06-27 16:42:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-06-27 16:42:14 - [TEST_STEP][PASSED] - println("I am in sampleAfterTestCase method "): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-27 16:42:03 - [TEST_SUITE][PASSED] - Test Suite: Test Cases/LoginScript_CURA]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

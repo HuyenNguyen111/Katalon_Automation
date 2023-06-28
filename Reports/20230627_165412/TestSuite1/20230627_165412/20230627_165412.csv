@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 114.0.0.0,,,2023-06-27 16:54:22,2023-06-27 16:54:32,9.126s,PASSED
+,,,,,,,
+Test Cases/LoginSwag,Chrome 114.0.0.0,,,2023-06-27 16:54:23,2023-06-27 16:54:31,8.467s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 114.0.0.0,,,2023-06-27 16:54:23,2023-06-27 16:54:23,0.001s,PASSED
+Start setup action : setupTestCase,Chrome 114.0.0.0,,,2023-06-27 16:54:23,2023-06-27 16:54:23,0.374s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-27 16:54:23,2023-06-27 16:54:26,2.382s,PASSED
+navigateToUrl(url_swag),Chrome 114.0.0.0,,,2023-06-27 16:54:26,2023-06-27 16:54:28,2.137s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), username_swag)",Chrome 114.0.0.0,,,2023-06-27 16:54:28,2023-06-27 16:54:29,0.712s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), password_swag)",Chrome 114.0.0.0,,,2023-06-27 16:54:29,2023-06-27 16:54:29,0.646s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 114.0.0.0,,,2023-06-27 16:54:29,2023-06-27 16:54:30,0.406s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-27 16:54:30,2023-06-27 16:54:31,1.467s,PASSED
+Start tear down : tearDownTestCase,Chrome 114.0.0.0,,,2023-06-27 16:54:31,2023-06-27 16:54:31,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 114.0.0.0,,,2023-06-27 16:54:31,2023-06-27 16:54:31,0.001s,PASSED
+,,,,,,,
+Test Cases/TestVariables,Chrome 114.0.0.0,,,2023-06-27 16:54:31,2023-06-27 16:54:32,0.351s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 114.0.0.0,,,2023-06-27 16:54:31,2023-06-27 16:54:31,0.000s,PASSED
+Start setup action : setupTestCase,Chrome 114.0.0.0,,,2023-06-27 16:54:31,2023-06-27 16:54:31,0.001s,PASSED
+"str = ""Print this text""",Chrome 114.0.0.0,,,2023-06-27 16:54:32,2023-06-27 16:54:32,0.002s,PASSED
+i = 2,Chrome 114.0.0.0,,,2023-06-27 16:54:32,2023-06-27 16:54:32,0.001s,PASSED
+j = 5,Chrome 114.0.0.0,,,2023-06-27 16:54:32,2023-06-27 16:54:32,0.000s,PASSED
+sum = i + j,Chrome 114.0.0.0,,,2023-06-27 16:54:32,2023-06-27 16:54:32,0.000s,PASSED
+println(str),Chrome 114.0.0.0,,,2023-06-27 16:54:32,2023-06-27 16:54:32,0.000s,PASSED
+println(sum),Chrome 114.0.0.0,,,2023-06-27 16:54:32,2023-06-27 16:54:32,0.000s,PASSED
+Start tear down : tearDownTestCase,Chrome 114.0.0.0,,,2023-06-27 16:54:32,2023-06-27 16:54:32,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 114.0.0.0,,,2023-06-27 16:54:32,2023-06-27 16:54:32,0.001s,PASSED

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 114.0.0.0,,,2023-06-27 16:53:26,2023-06-27 16:53:37,11.438s,FAILED
+,,,,,,,
+Test Cases/LoginSwag,Chrome 114.0.0.0,,,2023-06-27 16:53:34,2023-06-27 16:53:37,2.289s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 114.0.0.0,,,2023-06-27 16:53:34,2023-06-27 16:53:34,0.001s,PASSED
+Start setup action : setupTestCase,Chrome 114.0.0.0,,,2023-06-27 16:53:34,2023-06-27 16:53:34,0.001s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-27 16:53:34,2023-06-27 16:53:37,2.177s,PASSED
+navigateToUrl(url_swag),Chrome 114.0.0.0,,,2023-06-27 16:53:37,2023-06-27 16:53:37,0.100s,FAILED
+Start tear down : tearDownTestCase,Chrome 114.0.0.0,,,2023-06-27 16:53:37,2023-06-27 16:53:37,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 114.0.0.0,,,2023-06-27 16:53:37,2023-06-27 16:53:37,0.000s,PASSED
+,,,,,,,
+Test Cases/TestVariables,Chrome 114.0.0.0,,,2023-06-27 16:53:37,2023-06-27 16:53:37,0.322s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 114.0.0.0,,,2023-06-27 16:53:37,2023-06-27 16:53:37,0.001s,PASSED
+Start setup action : setupTestCase,Chrome 114.0.0.0,,,2023-06-27 16:53:37,2023-06-27 16:53:37,0.001s,PASSED
+"str = ""Print this text""",Chrome 114.0.0.0,,,2023-06-27 16:53:37,2023-06-27 16:53:37,0.001s,PASSED
+i = 2,Chrome 114.0.0.0,,,2023-06-27 16:53:37,2023-06-27 16:53:37,0.000s,PASSED
+j = 5,Chrome 114.0.0.0,,,2023-06-27 16:53:37,2023-06-27 16:53:37,0.000s,PASSED
+sum = i + j,Chrome 114.0.0.0,,,2023-06-27 16:53:37,2023-06-27 16:53:37,0.001s,PASSED
+println(str),Chrome 114.0.0.0,,,2023-06-27 16:53:37,2023-06-27 16:53:37,0.000s,PASSED
+println(sum),Chrome 114.0.0.0,,,2023-06-27 16:53:37,2023-06-27 16:53:37,0.000s,PASSED
+Start tear down : tearDownTestCase,Chrome 114.0.0.0,,,2023-06-27 16:53:37,2023-06-27 16:53:37,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 114.0.0.0,,,2023-06-27 16:53:37,2023-06-27 16:53:37,0.001s,PASSED

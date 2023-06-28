@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 114.0.0.0,,,2023-06-27 15:24:35,2023-06-27 15:24:43,8.194s,PASSED
+,,,,,,,
+Test Cases/LoginSwag,Chrome 114.0.0.0,,,2023-06-27 15:24:36,2023-06-27 15:24:43,7.632s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-27 15:24:36,2023-06-27 15:24:38,2.446s,PASSED
+navigateToUrl(url_swag),Chrome 114.0.0.0,,,2023-06-27 15:24:38,2023-06-27 15:24:40,2.139s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), username_swag)",Chrome 114.0.0.0,,,2023-06-27 15:24:40,2023-06-27 15:24:41,0.708s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), password_swag)",Chrome 114.0.0.0,,,2023-06-27 15:24:41,2023-06-27 15:24:42,0.664s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 114.0.0.0,,,2023-06-27 15:24:42,2023-06-27 15:24:42,0.445s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-27 15:24:42,2023-06-27 15:24:43,0.861s,PASSED
+,,,,,,,
+Test Cases/TestVariables,Chrome 114.0.0.0,,,2023-06-27 15:24:43,2023-06-27 15:24:43,0.303s,PASSED
+"str = ""Print this text""",Chrome 114.0.0.0,,,2023-06-27 15:24:43,2023-06-27 15:24:43,0.000s,PASSED
+i = 2,Chrome 114.0.0.0,,,2023-06-27 15:24:43,2023-06-27 15:24:43,0.000s,PASSED
+j = 5,Chrome 114.0.0.0,,,2023-06-27 15:24:43,2023-06-27 15:24:43,0.000s,PASSED
+sum = i + j,Chrome 114.0.0.0,,,2023-06-27 15:24:43,2023-06-27 15:24:43,0.000s,PASSED
+println(str),Chrome 114.0.0.0,,,2023-06-27 15:24:43,2023-06-27 15:24:43,0.002s,PASSED
+println(sum),Chrome 114.0.0.0,,,2023-06-27 15:24:43,2023-06-27 15:24:43,0.000s,PASSED

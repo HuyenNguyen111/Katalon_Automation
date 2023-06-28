@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_DT,Chrome 114.0.0.0,,,2023-06-28 14:24:55,2023-06-28 14:25:26,30.552s,PASSED
+,,,,,,,
+Test Cases/LoginCURA,Chrome 114.0.0.0,,,2023-06-28 14:24:56,2023-06-28 14:25:26,30.151s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 114.0.0.0,,,2023-06-28 14:24:56,2023-06-28 14:24:56,0.001s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-28 14:24:56,2023-06-28 14:24:59,2.530s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 114.0.0.0,,,2023-06-28 14:24:59,2023-06-28 14:25:03,4.619s,PASSED
+"click(findTestObject(""btnMakeAppointment""))",Chrome 114.0.0.0,,,2023-06-28 14:25:03,2023-06-28 14:25:06,2.818s,PASSED
+"setText(findTestObject(""inputUser""), Username)",Chrome 114.0.0.0,,,2023-06-28 14:25:06,2023-06-28 14:25:12,6.167s,PASSED
+"setText(findTestObject(""inputPassword""), Password)",Chrome 114.0.0.0,,,2023-06-28 14:25:12,2023-06-28 14:25:20,7.948s,PASSED
+"click(findTestObject(""btnLogin""))",Chrome 114.0.0.0,,,2023-06-28 14:25:20,2023-06-28 14:25:25,4.526s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-28 14:25:25,2023-06-28 14:25:26,1.118s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 114.0.0.0,,,2023-06-28 14:25:26,2023-06-28 14:25:26,0.000s,PASSED

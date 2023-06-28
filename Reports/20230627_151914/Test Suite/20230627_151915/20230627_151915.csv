@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite,Chrome 114.0.0.0,,,2023-06-27 15:20:35,2023-06-27 15:20:54,18.817s,PASSED
+,,,,,,,
+Test Cases/LoginScript_CURA,Chrome 114.0.0.0,,,2023-06-27 15:20:35,2023-06-27 15:20:47,11.673s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-27 15:20:36,2023-06-27 15:20:38,2.651s,PASSED
+navigateToUrl(URL),Chrome 114.0.0.0,,,2023-06-27 15:20:38,2023-06-27 15:20:43,4.362s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 114.0.0.0,,,2023-06-27 15:20:43,2023-06-27 15:20:44,1.226s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username""), Username)",Chrome 114.0.0.0,,,2023-06-27 15:20:44,2023-06-27 15:20:45,0.668s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password""), Password)",Chrome 114.0.0.0,,,2023-06-27 15:20:45,2023-06-27 15:20:45,0.661s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 114.0.0.0,,,2023-06-27 15:20:45,2023-06-27 15:20:46,0.892s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-27 15:20:46,2023-06-27 15:20:47,0.836s,PASSED
+,,,,,,,
+Test Cases/LoginSwag,Chrome 114.0.0.0,,,2023-06-27 15:20:47,2023-06-27 15:20:54,6.848s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-27 15:20:47,2023-06-27 15:20:49,1.575s,PASSED
+navigateToUrl(url_swag),Chrome 114.0.0.0,,,2023-06-27 15:20:49,2023-06-27 15:20:51,2.407s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), username_swag)",Chrome 114.0.0.0,,,2023-06-27 15:20:51,2023-06-27 15:20:52,0.657s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), password_swag)",Chrome 114.0.0.0,,,2023-06-27 15:20:52,2023-06-27 15:20:53,0.654s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 114.0.0.0,,,2023-06-27 15:20:53,2023-06-27 15:20:53,0.388s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-27 15:20:53,2023-06-27 15:20:54,0.851s,PASSED

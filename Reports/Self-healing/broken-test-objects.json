@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/inputUser",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[contains(@id,\"txt-username\")]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/inputUser_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/inputPassword",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[contains(@id,\"txt-password\")]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/inputPassword_XPATH.png"
+    }
+  ]
+}

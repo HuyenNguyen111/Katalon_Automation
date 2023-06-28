@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite,Chrome 114.0.0.0,,,2023-06-27 16:42:03,2023-06-27 16:42:14,10.566s,PASSED
+,,,,,,,
+Test Cases/LoginScript_CURA,Chrome 114.0.0.0,,,2023-06-27 16:42:04,2023-06-27 16:42:14,10.295s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 114.0.0.0,,,2023-06-27 16:42:04,2023-06-27 16:42:04,0.002s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-27 16:42:04,2023-06-27 16:42:06,2.473s,PASSED
+navigateToUrl(URL),Chrome 114.0.0.0,,,2023-06-27 16:42:06,2023-06-27 16:42:10,3.196s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 114.0.0.0,,,2023-06-27 16:42:10,2023-06-27 16:42:11,1.197s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username""), Username)",Chrome 114.0.0.0,,,2023-06-27 16:42:11,2023-06-27 16:42:12,0.700s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password""), Password)",Chrome 114.0.0.0,,,2023-06-27 16:42:12,2023-06-27 16:42:12,0.655s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 114.0.0.0,,,2023-06-27 16:42:12,2023-06-27 16:42:13,0.877s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-27 16:42:13,2023-06-27 16:42:14,0.847s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 114.0.0.0,,,2023-06-27 16:42:14,2023-06-27 16:42:14,0.001s,PASSED
